@@ -1,0 +1,155 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "beetle_low",
+            "scale" : [
+                -0.014027999714016914,
+                -0.014028078876435757,
+                -0.014028078876435757
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "beetle",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.007",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "beetle_low_beetle_Normal",
+            "uri" : "beetle_low_beetle_Normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "beetle_low_beetle_BaseColor",
+            "uri" : "beetle_low_beetle_BaseColor.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "beetle_low_beetle_Roughness",
+            "uri" : "beetle_low_beetle_Roughness.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 6213,
+            "max" : [
+                16.812236785888672,
+                7.584023475646973,
+                24.732425689697266
+            ],
+            "min" : [
+                -16.812236785888672,
+                -14.792932510375977,
+                -24.061655044555664
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6213,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6213,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 32676,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 74556,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 74556,
+            "byteOffset" : 74556
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 49704,
+            "byteOffset" : 149112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65352,
+            "byteOffset" : 198816
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 264168,
+            "uri" : "beetle.bin"
+        }
+    ]
+}

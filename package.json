@@ -1,0 +1,26 @@
+{
+    "name": "threejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon --exec babel-node server.js",
+        "build": "babel src --out-dir dist",
+        "serve": "node dist/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/node": "^7.8.7",
+        "@babel/preset-env": "^7.9.5",
+        "express": "^4.17.1",
+        "three": "^0.115.0"
+    }
+}
