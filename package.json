@@ -21,6 +21,6 @@
         "@babel/node": "^7.8.7",
         "@babel/preset-env": "^7.9.5",
         "express": "^4.17.1",
-        "three": "^0.115.0"
+        "three": "^0.137.0"
     }
 }
